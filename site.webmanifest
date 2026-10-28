@@ -1,0 +1,19 @@
+{
+  "name": "Дымный Двор — копчёная колбаса",
+  "short_name": "Дымный Двор",
+  "description": "Натуральная копчёная колбаса ручной работы с доставкой по Москве.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fdf8f2",
+  "theme_color": "#b45f2e",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
