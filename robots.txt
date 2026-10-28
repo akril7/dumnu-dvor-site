@@ -1,0 +1,29 @@
+# robots.txt для record.vikavikavika.ru
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*?sessionid=
+
+# Основные поисковики
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Clean-param: utm_source&utm_medium&utm_campaign&utm_term&utm_content
+
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+# Не индексировать технические файлы
+User-agent: *
+Disallow: /404.html
+Disallow: /thanks.html
+
+# Карта сайта
+Sitemap: https://record.vikavikavika.ru/sitemap.xml
+Host: https://record.vikavikavika.ru

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дымный Двор · копченая колбаса</title>
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Шрифты для красоты -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Иконки (Font Awesome для простоты) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://record.vikavikavika.ru/">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#b45f2e">
+
+  <!-- SEO -->
+  <meta name="description" content="Дымный Двор — натуральная копчёная колбаса ручной работы. Доставка по Москве и области. Закажите обратный звонок!">
+  <meta name="keywords" content="копчёная колбаса, сырокопчёная, охотничьи колбаски, колбаса ручной работы, доставка колбасы">
+
+  <!-- Open Graph (для соцсетей) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Дымный Двор — копчёная колбаса ручной работы">
+  <meta property="og:description" content="Натуральное копчение, фермерское мясо, доставка по Москве.">
+  <meta property="og:url" content="https://record.vikavikavika.ru/">
+  <meta property="og:site_name" content="Дымный Двор">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:image" content="https://record.vikavikavika.ru/og-image.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Дымный Двор — копчёная колбаса">
+  <meta name="twitter:description" content="Натуральная копчёная колбаса ручной работы.">
+  <meta name="twitter:image" content="https://record.vikavikavika.ru/og-image.jpg">
+</head>
+<body>
+
+  <!-- Хедер с навигацией -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <i class="fas fa-fire"></i> Дымный&nbsp;Двор
+      </a>
+      <nav class="nav">
+        <a href="#products">Продукция</a>
+        <a href="#about">О нас</a>
+        <a href="#order">Заказать звонок</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="header-phone">
+        <i class="fas fa-phone-alt"></i> +7 (999) 123-45-67
+      </div>
+    </div>
+  </header>
+
+  <!-- Главный баннер с анимацией -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Копченая колбаса <br> <span class="accent">ручной работы</span></h1>
+      <p>Натуральное копчение на ольховой щепе. Без химии и усилителей вкуса. Попробуйте настоящий вкус деревенской колбасы.</p>
+      <a href="#order" class="btn btn-primary">Заказать звонок <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="hero-overlay"></div>
+    <!-- Декоративные дымовые частицы (анимация через CSS) -->
+    <div class="smoke"></div>
+    <div class="smoke smoke2"></div>
+  </section>
+
+  <!-- Блок продукции -->
+  <section id="products" class="products">
+    <div class="container">
+      <h2 class="section-title">Наши хиты</h2>
+      <div class="product-grid">
+        <!-- Карточка 1 -->
+        <div class="product-card">
+          <div class="product-img">
+            <i class="fas fa-drumstick-bite"></i>
+          </div>
+          <h3>Колбаса «Дымная»</h3>
+          <p>Классическая сырокопченая, 45% мяса, плотная текстура.</p>
+          <span class="price">890 ₽ / кг</span>
+        </div>
+        <!-- Карточка 2 -->
+        <div class="product-card">
+          <div class="product-img">
+            <i class="fas fa-fire"></i>
+          </div>
+          <h3>Охотничьи колбаски</h3>
+          <p>С пряностями и чесноком, идеальны к пиву.</p>
+          <span class="price">1 290 ₽ / кг</span>
+        </div>
+        <!-- Карточка 3 -->
+        <div class="product-card">
+          <div class="product-img">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <h3>Колбаса «По-домашнему»</h3>
+          <p>Свинина и говядина, копчение на вишневой щепе.</p>
+          <span class="price">950 ₽ / кг</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О нас с анимацией появления -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Настоящее копчение <br> <span class="accent">с 2012 года</span></h2>
+        <p>Мы небольшая семейная коптильня. Используем только фермерское мясо, натуральные специи и дым от ольхи, вишни и дуба. Никаких ускорителей и консервантов.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Ручная вязка батонов</li>
+          <li><i class="fas fa-check-circle"></i> Холодное и горячее копчение</li>
+          <li><i class="fas fa-check-circle"></i> Доставка по Москве и области</li>
+        </ul>
+      </div>
+      <div class="about-visual">
+        <div class="about-circle">
+          <i class="fas fa-smoking"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Форма заказа звонка -->
+  <section id="order" class="order-section">
+    <div class="container">
+      <div class="order-wrapper">
+        <div class="order-info">
+          <h2>Закажите <span class="accent">обратный звонок</span></h2>
+          <p>Оставьте имя и удобное время для звонка — мы перезвоним и поможем с выбором.</p>
+          <div class="order-contacts">
+            <i class="fas fa-phone"></i> +7 (999) 123-45-67
+          </div>
+        </div>
+        <form id="callbackForm" class="order-form">
+          <div class="form-group">
+            <label for="name">Ваше имя</label>
+            <input type="text" id="name" name="name" placeholder="Иван" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Номер телефона</label>
+            <input type="tel" id="phone" name="phone" placeholder="+7 (999) 123-45-67" required>
+          </div>
+          <div class="form-group">
+            <label for="time">Удобное время для звонка</label>
+            <input type="text" id="time" name="time" placeholder="Например: с 10:00 до 12:00" required>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Отправить <i class="fas fa-paper-plane"></i></button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакты -->
+  <section id="contacts" class="contacts">
+    <div class="container contacts-grid">
+      <div>
+        <i class="fas fa-map-marker-alt"></i>
+        <h4>Адрес</h4>
+        <p>Москва, ул. Коптильная, 12</p>
+      </div>
+      <div>
+        <i class="fas fa-clock"></i>
+        <h4>Режим работы</h4>
+        <p>Пн–Вс: 9:00 – 20:00</p>
+      </div>
+      <div>
+        <i class="fas fa-envelope"></i>
+        <h4>Email</h4>
+        <p>hello@dymny-dvor.ru</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 Дымный Двор. Все права защищены.</p>
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Подключаем JS -->
+  <script src="app.js"></script>
+</body>
+</html>

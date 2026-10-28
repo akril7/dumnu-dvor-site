@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Страница не найдена | Дымный Двор</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Дополнительные стили для 404, чтобы не дублировать */
+    .error-section {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(145deg, #fdf8f2, #f7ede4);
+    }
+    .error-code {
+      font-size: 8rem;
+      font-family: 'Playfair Display', serif;
+      font-weight: 700;
+      color: #b45f2e;
+      line-height: 1;
+      text-shadow: 0 10px 20px rgba(180, 95, 46, 0.15);
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+    .error-section h1 {
+      font-size: 2.4rem;
+      margin: 20px 0 12px;
+    }
+    .error-section p {
+      color: #5f4e43;
+      margin-bottom: 32px;
+      font-size: 1.1rem;
+    }
+    .error-actions {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  </style>
+  <link rel="canonical" href="https://record.vikavikavika.ru/404.html">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <i class="fas fa-fire"></i> Дымный&nbsp;Двор
+      </a>
+      <nav class="nav">
+        <a href="/#products">Продукция</a>
+        <a href="/#about">О нас</a>
+        <a href="/#order">Заказать звонок</a>
+        <a href="/#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="error-section">
+    <div class="container">
+      <div class="error-code">404</div>
+      <h1>Страница не найдена</h1>
+      <p>Похоже, эта страница ушла в дым. Вернитесь на главную и выберите что-нибудь вкусное.</p>
+      <div class="error-actions">
+        <a href="/" class="btn btn-primary"><i class="fas fa-home"></i> На главную</a>
+        <a href="/#order" class="btn" style="background:#f0e3d8; color:#2e241e;"><i class="fas fa-phone"></i> Заказать звонок</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 Дымный Двор. Все права защищены.</p>
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
